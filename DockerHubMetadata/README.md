@@ -37,7 +37,7 @@ an is also included.
 How to reproduce:
 
 ```
-pip -r requirement.txt
+pip install -r requirement.txt
 python3 list_docker_images.py
 cp inspect.go /path/to/skopeo/cmd/skopeo/inspect.go
 make -C /path/to/skopeo/ binary
